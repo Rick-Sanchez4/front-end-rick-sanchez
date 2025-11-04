@@ -16,13 +16,6 @@
       "src": "/(.*)",
       "dest": "/api/index.js"
     }
-  ],
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs20.x",
-      "includeFiles": "dist/angular-front-end/**",
-      "memory": 1024
-    }
-  }
+  ]
 }
 
